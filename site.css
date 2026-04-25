@@ -1,0 +1,13 @@
+body {
+    background: #f6c56a;
+    padding: 50px;
+}
+h1,
+h2,
+h3 {
+    color: #7c140f;
+    font-family: 'Courier New', Courier, monospace;
+}
+img {
+    width: 400px;
+}
