@@ -1,0 +1,75 @@
+body {
+    background-image: url("suspiria.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 1900px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vh;
+    /* align-content: center; */
+}
+img{
+    width: 300px;
+    padding-top: 500px;
+    padding-left: 160px;
+    /* border: 2px solid pink; */
+}
+
+.top {
+    background-color: rgba(252, 156, 222, 0.699);
+    padding: 30px;
+    border-radius: 12px;
+    width: 100vh;
+    align-content: center;
+    padding-left: 5%;
+}
+
+#intro {
+    text-align: center;
+    color: rgb(48, 3, 89);
+}
+
+#angelina{
+    height: 40%;
+    padding-top: 50%;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    /* border: 5px solid black; */
+    margin-top: -30%;
+}
+
+#shoe {
+    /* border: 5px solid black; */
+    height: 20%
+}
+
+
+#wand{
+    /* border: 2px solid green; */
+    /* height: 20%; */
+    /* margin-right: 100%; */
+    padding-top: 70%;
+    padding-left: 0;
+
+
+}
+#wand img{
+    height: 5%;
+}
+.choices{
+    /* border: 3px blue; */
+    /* height: fit-content; */
+    display: flex;
+    flex-direction: row;
+    padding-right: 70%;
+    /* padding-top: -100%; */
+    /* padding-top: -10%; */
+    /* position: absolute; */
+    
+}
+.choices img{
+    height: 20%;
+}
