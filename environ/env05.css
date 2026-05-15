@@ -1,0 +1,170 @@
+body{
+    zoom: 50%;
+    max-height: 900px;
+    background-image: url("suspiria.jpg");
+    background-repeat: no-repeat;  
+    background-size: 125%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    display: flex;
+}
+
+#intro {
+    background-color: rgba(250, 235, 215, 0.759);
+    border-radius: 10%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(95, 2, 2);
+    margin-top: 25%; 
+    margin-left: 15%;
+    padding: 5%;
+    padding-bottom: 5%;
+    border-style: solid;
+    border: 20%;
+    border-color: rgb(111, 4, 25);
+}
+
+#wbottom{
+    position: absolute;
+    width: 620px;
+    top: -150px;
+    left: 415px;
+    
+}
+
+#angelina{
+    position: absolute;
+    width: 350%;
+    left: 200%;
+    top: -150px
+}
+
+
+#animble{
+    position: absolute;
+    width: 750px;
+    left: 300px;
+    top: -250px
+    
+
+}
+
+.right{
+    display: flex;
+    align-items: relative;
+    /* flex-wrap: wrap; */
+    margin-left: 10%;
+    margin-top: 10%;
+    
+}
+
+.buttons{
+    display: flex;
+    position: absolute;
+    /* background-color: aquamarine; */
+    margin-left: 50%;
+    margin-top: 16%;
+
+}
+
+.character-selections{
+    position: absolute;
+    margin-left: 6%;
+    margin-top: 30%;
+}
+
+#character-selection{
+    background-color: rgba(250, 235, 215, 0.759);
+    border-color: antiquewhite;
+    color: rgb(95, 2, 2);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+#ballerina-output{
+    position: absolute;
+    /* margin-right: 150%; */
+    margin-top: 70%;
+    width: 150%;
+    text-align: center;
+    background-color: rgba(250, 235, 215, 0.759);
+    border-style: solid;
+    border: 20%;
+    border-color: rgb(111, 4, 25);
+    padding: 5%;
+    color: rgb(95, 2, 2);
+}
+
+#witch-output{
+    position: absolute;
+    margin-left: 380%;
+    margin-top: 70%;
+    width: 150%;
+    text-align: center;
+    background-color: rgba(250, 235, 215, 0.759);
+    border-style: solid;
+    border: 20%;
+    border-color: rgb(111, 4, 25);
+    padding: 5%;
+    color: rgb(95, 2, 2);
+
+    
+}
+
+#ballerina{
+    margin-right: 50%;
+    padding: 10%;
+    background-color: rgba(250, 235, 215, 0.759);
+    /* border-right: 50%; */
+    border-color: antiquewhite;
+    color: rgb(95, 2, 2);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+#needy-button{
+    margin-left: 300%;
+    padding: 10%;
+    background-color: rgba(250, 235, 215, 0.759);
+    border-color: antiquewhite;
+    color: rgb(95, 2, 2);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#shoes{
+    background-color: rgba(250, 235, 215, 0.701);
+    
+    height: 30%;
+    margin-left: 50%;
+    margin-top: -22%;
+    border-radius: 5%;
+    padding: 5%;
+    padding-top: 6%;
+    padding-bottom: 15%;
+    border-style: solid;
+    border: 20%;
+    border-color: rgb(111, 4, 25);
+
+}
+
+#wand{
+    background-color: rgba(250, 235, 215, 0.653);
+    height: 50%;
+    border-radius: 5%;
+    padding: 5%;
+    /* padding-bottom: 49%; */
+    margin-left: 20%;
+    margin-top: -20%;
+    padding-left: 15%;
+    padding-right: 15%;
+    border-style: solid;
+    border: 20%;
+    border-color: rgb(111, 4, 25);
+
+}
+

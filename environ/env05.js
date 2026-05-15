@@ -28,10 +28,53 @@ $("#character-selection").click(function () {
     }
 
     if (userNumber == 2) {
-        $("#output").html('<img id="wbottom" src="wbottom.png">');
+        $("#output2").html('<img id="wbottom" src="wbottom.png">');
     }
 
     if (userNumber == 3) {
-        $("#output").html('<img id="animble" src="animble.png">');
+        $("#output3").html('<img id="animble" src="animble.png">');
+    }
+});
+
+let count = 0
+let backgrounds = [
+    "suspiria.jpg",
+    "wallscribble.jpg",
+    "blackout.jpg",
+    "doorway.png",]
+
+
+$(document).keydown(function (event) {
+
+    if (event.code === "Space") {
+
+        event.preventDefault();
+
+        count++;
+
+        let currentImage = backgrounds[count % backgrounds.length];
+
+        $("body").css(
+            "background-image",
+            'url("' + currentImage + '")'
+        );
+
+        // Different sizing per image
+        if(currentImage === "wallscribble.jpg"){
+            $("body").css("background-size", "cover");
+        }
+
+        if(currentImage === "doorway.png"){
+            $("body").css("background-size", "cover");
+        }
+
+        if(currentImage === "suspiria.jpg"){
+            $("body").css("background-size", "125%");
+        }
+
+        if(currentImage === "blackout.jpg"){
+            $("body").css("background-size", "125%");
+        }
+        
     }
 });
